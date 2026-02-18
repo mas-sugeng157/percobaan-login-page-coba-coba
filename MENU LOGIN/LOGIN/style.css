@@ -1,0 +1,67 @@
+body{
+    background: url(../aset/img2.jpg);
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    background-color: rgba(17, 16, 0, 0.5);
+    height: 350px;
+    width: 350px;
+   backdrop-filter: blur(2px);
+   box-shadow: 0 0px 15px rgba(1,1,1,1);
+}
+h1{
+    color: whitesmoke;
+    text-align: center;
+}
+span{
+    color: white;
+    display: block;
+    margin-left: 70px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+button{
+    width: 210px;
+    height: 25px;
+    display: block;
+    margin: 4px auto;
+}
+.link{
+    cursor: pointer;;
+    text-decoration: underline;
+}
+hr{
+    width: 250px;
+    display: block;
+    margin: 4px auto;
+}
+input{
+    width: 200px;
+    margin-bottom: 10px;
+    display: block;  
+    margin: 4px auto;
+}
+h3{
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+.box1{
+    background-color: rgba(17, 16, 0, 0.5);
+    backdrop-filter: blur(2px);
+    aspect-ratio: 3/2;
+    padding: 3px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    box-shadow: 0 0px 15px rgba(1,1,1,1);
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
